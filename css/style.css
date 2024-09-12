@@ -12,14 +12,18 @@
     max-width: 100%;
     background-color: black;
     display:flex;
+    background-image: url("../images/netflixteaser.png");
+    background-size: cover;
 }
 .starting {
     background-color: #dc2626;
     margin-left:-4px;
     transition:.25s;
+    padding-top:1.25rem;
 }
 .starting:hover {
     background-color: #c22121;
+    cursor: pointer;
 }
 .red {
     background-color: #dc2626;
@@ -28,6 +32,7 @@
 }
 .red:hover {
     background-color: #c22121;
+    cursor: pointer;
 }
 .myborder {
     border:3px white solid;
@@ -37,4 +42,5 @@
 .myborder:hover {
     background-color: white;
     color:black;
+    cursor: pointer;
 }
