@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+}
+.logo {
+    float: left;
+    height:10%;
+    width: 15%;
+}
+.myContainer {
+    max-width: 100%;
+    background-color: black;
+    display:flex;
+}
+.starting {
+    background-color: #dc2626;
+    margin-left:-4px;
+    transition:.25s;
+}
+.starting:hover {
+    background-color: #c22121;
+}
+.red {
+    background-color: #dc2626;
+    border-radius: 5px;
+    transition:.25s;
+}
+.red:hover {
+    background-color: #c22121;
+}
+.myborder {
+    border:3px white solid;
+    border-radius: 5px;
+    transition:.25s;
+}
+.myborder:hover {
+    background-color: white;
+    color:black;
+}
