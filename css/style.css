@@ -10,10 +10,11 @@
 }
 .myContainer {
     max-width: 100%;
-    background-color: black;
     display:flex;
+    z-index: 1;
     background-image: url("../images/netflixteaser.png");
     background-size: cover;
+    position: relative;
 }
 
 .starting {
